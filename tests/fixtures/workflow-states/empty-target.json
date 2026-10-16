@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_id": "empty-target-run",
+  "status": "active",
+  "stage": "discovery",
+  "target": {
+    "root": ".",
+    "repository_id": "fixture-empty",
+    "base_revision": "initial",
+    "repository_kind": "empty",
+    "module_scope": []
+  },
+  "detected_stack": {
+    "languages": [],
+    "frameworks": [],
+    "build_systems": [],
+    "package_managers": [],
+    "dependencies": [],
+    "source_directories": [],
+    "test_directories": [],
+    "conventions": [],
+    "evidence": []
+  },
+  "story_sources": [
+    {"source_id": "story-direct-1", "source_type": "direct", "status": "complete", "required": true}
+  ],
+  "integration_plan": {"required_capabilities": [], "optional_capabilities": [], "bindings": []},
+  "requirement_ids": [],
+  "tasks": [],
+  "artifacts": [],
+  "active_artifacts": {},
+  "prerequisites": [],
+  "approvals": [],
+  "blockers": [],
+  "source_conflicts": [],
+  "review_findings": [],
+  "verification_evidence": [],
+  "rework_history": [],
+  "current_task": null
+}

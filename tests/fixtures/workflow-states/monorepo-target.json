@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_id": "monorepo-target-run",
+  "status": "active",
+  "stage": "discovery",
+  "target": {
+    "root": ".",
+    "repository_id": "fixture-monorepo",
+    "base_revision": "base-456",
+    "repository_kind": "monorepo",
+    "module_scope": ["modules/component-a"]
+  },
+  "detected_stack": {
+    "languages": [{"name": "stack-alpha", "evidence": ["modules/component-a/source.sample"]}],
+    "frameworks": [{"name": "stack-beta", "evidence": ["modules/component-a/config.sample"]}],
+    "build_systems": [],
+    "package_managers": [],
+    "dependencies": [],
+    "source_directories": ["modules/component-a/source"],
+    "test_directories": ["modules/component-a/spec"],
+    "conventions": [],
+    "evidence": ["workspace.sample", "modules/component-a/config.sample"]
+  },
+  "story_sources": [
+    {"source_id": "story-direct-2", "source_type": "direct", "status": "complete", "required": true}
+  ],
+  "integration_plan": {"required_capabilities": [], "optional_capabilities": [], "bindings": []},
+  "requirement_ids": [],
+  "tasks": [],
+  "artifacts": [],
+  "active_artifacts": {},
+  "prerequisites": [],
+  "approvals": [],
+  "blockers": [],
+  "source_conflicts": [],
+  "review_findings": [],
+  "verification_evidence": [],
+  "rework_history": [],
+  "current_task": null
+}
